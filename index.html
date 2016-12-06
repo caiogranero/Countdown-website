@@ -1,26 +1,89 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="app.css">
-		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="bower_components\bootstrap\dist\css\bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css">
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="app.js"></script>
 	</head>
 	<body>
 		<div class="bg">
 			<div id="img"></div>
+			<div id="overlay"></div>
 		</div>
 		<header>
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 col-xs-6 col-sm-6">
 					<div id="logo">
 						<img src="http://demo.bonefishcode.com/acrux/template/light/light-img-cloud-audio/assets/img/logo-dark.png">
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-xs-6 col-sm-6">
 					<div id="message">
 						<i class="fa fa-envelope" aria-hidden="true"></i>
 					</div>
 				</div>
 			</div>
 		</header>
+		<div class="main">
+			<center>
+			<div class="row">
+				<div class="col-md-12">
+					<h2> BE READY, WE ARE LAUCHING SOON. </h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h1> IMAGINE </h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row" id="countdown">
+				<div class="col-md-3 col-xs-6 col-countdown">
+					<p class="days"></p>
+					<div class="countdown-label">Days</div>
+				</div>
+				<div class="col-md-3 col-xs-6 col-countdown">
+					<p class="hours"></p>
+					<div class="countdown-label">Hours</div>
+				</div>
+				<div class="col-md-3 col-xs-6 col-countdown">
+					<p class="minutes"></p>
+					<div class="countdown-label">Minutes</div>
+				</div>
+				<div class="col-md-3 col-xs-6 col-countdown">
+					<p class="seconds"></p>
+					<div class="countdown-label">Seconds</div>
+				</div>
+			</div>
+			</center>
+		</div>
+		<footer>
+			<div class="row">
+				<div class="col-md-6 music">
+
+				</div>
+				<div class="col-md-6 icons">
+					<div class="row">
+						<div class="col-md-3">
+							<i class="fa fa-github" aria-hidden="true"></i>
+						</div>
+						<div class="col-md-3">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</div>
+						<div class="col-md-3">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</div>
+						<div class="col-md-3">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</div>
+					</div>				
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>

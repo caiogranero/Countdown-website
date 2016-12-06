@@ -3,10 +3,13 @@ html, body{
 }
 
 body{
-	height: 100%;
     border-color: white;
     border-style: solid;
     border-width: 15px;
+    font-family: "Ubuntu Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative;
+    border: 30px solid white;
+    color: rgba(62, 68, 89, 0.992157);
 }
 
 #img {
@@ -27,9 +30,13 @@ body{
     position: absolute;
 }
 
-img{
-    max-width: 100%;
-
+#overlay{
+    background-color: rgba(255, 255, 255, 0.4);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
 }
 
 #logo img{
@@ -59,4 +66,75 @@ img{
     -webkit-transform: translateX(-50%);
     font-size: 30px;
     text-align: center;
+}
+
+.main {
+    
+    top: 100px;
+    padding-right: 250px;
+    padding-left: 250px;
+    position: relative;
+    width: 100%;
+    color: rgba(62, 68, 89, 0.992157);
+    display: none;
+}
+
+.main h2{
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 26px;
+}
+
+.main h1{
+    font-size: 100px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 88px;
+}
+
+.main hr{
+    margin-top: 50px;
+    border-top: 10px solid rgba(62, 68, 89, 0.992157);
+    width: 120px;
+    border-radius: 5px;
+}
+
+#countdown{
+    margin-top: 40px;
+}
+
+#countdown p{
+    font-size: 60px;
+}
+
+.countdown-label {
+    color: white;
+    background-color: rgba(62, 68, 89, 0.992157);
+    border-radius: 50px;
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+}
+
+footer{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;    
+    color: rgba(62, 68, 89, 0.992157);
+}
+
+footer .icons{
+    font-size: 30px;
+}
+
+.icons i {
+    cursor: pointer;
+    margin-right: 100px;
 }
